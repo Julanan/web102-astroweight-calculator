@@ -1,0 +1,45 @@
+h1 {
+  color: rgb(212, 159, 13);
+}
+
+body {
+  background-image: url("astro.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Nasa", sans-serif;
+  font-size: 40px;
+}
+button {
+  background-color: #d49f0e;
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  font-family: "Nasa", sans-serif;
+}
+input {
+  font-family: "Nasa", sans-serif;
+  font-size: 40px;
+  background-color: #d49f0e;
+  text-align: center;
+  border: 1px solid;
+}
+select {
+  font-family: "Nasa", sans-serif;
+  font-size: 40px;
+  background-color: #d49f0e;
+  text-align: center;
+  border: 1px solid;
+}
+p {
+  font-family: "Nasa", sans-serif;
+  font-size: 40px;
+  padding: 6px;
+  width: 50%;
+  font-size: 40px;
+  color: #d49f0e;
+  text-align: center;
+}

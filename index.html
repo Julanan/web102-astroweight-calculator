@@ -1,11 +1,35 @@
 <!DOCTYPE html>
+
 <html>
   <head>
-    <meta charset="utf-8">
+    <style>
+      @import url("http://fonts.cdnfonts.com/css/nasa");
+    </style>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      href="http://fonts.cdnfonts.com/css/nasa?styles=94892"
+      rel="stylesheet"
+    />
     <title>Astro Weight Calculator</title>
   </head>
+  <header>
+    <h1><center>ASTRO WEIGHT CALCULATOR!</center></h1>
+  </header>
   <body>
-     <!-- Write your markup here  -->
+    <center>
+      <input
+        id="user-weight"
+        type="text"
+        placeholder="Enter your Weight (lbs)"
+      />
+    </center>
+    <center><select id="planets"></select></center>
+    <center><p id="output"></p></center>
+    <center>
+      <button onclick="handleClickEvent()" id="calculate-button" class="button">
+        SEE RESULT!
+      </button>
+    </center>
 
     <script src="main.js" charset="utf-8"></script>
   </body>
